@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+/* layout principal*/
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #e68a7b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Menu */
+header {
+    background-color: #e68a7b;
+    padding: 1.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color:#e68a7b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+/*Botôes*/
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .2s;
+}
+
+/*Transição dos botões*/
+a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+    transform: scale(1.05);
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
+.Sobre ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Sobre li{
+    list-style: none;
+}
