@@ -37,7 +37,7 @@ nav{
 
 nav ul {
     list-style: none;
-    display:flex;
+    display: flex;
     gap: 60px;
 }
 
@@ -57,8 +57,9 @@ nav ul li a {
     align-items: center;
     width: 90%;
     max-width: 1200px;
-    margin-top: 80px;
+    margin-top: 200px;
     gap: 40px;
+    padding: 30px;
 }
 
 /*Botôes*/
@@ -90,7 +91,15 @@ a:hover{
 }
 
 /* Imagem */
+.imagem-lateral {
+    width: 100%;
+    max-width: 300px;
+}
 
+.imagem-lateral img {
+    width: 100%;
+    border-radius: 10px;
+}
 
 /* Conteúdo */
 .conteudo {
@@ -99,30 +108,12 @@ a:hover{
 }
 
 h1 {
-    margin-top: 15%;
-    font-size: 150px;
+    font-size: 60px;
     color: #e68a7b;
-    text-shadow: 2px 1px 5px #000000;
 }
 
-/*Botão de produtos*/
-button {
-    width: 100%;
-    padding: 30px;
-    background: #e68a7b;
-    background-size: 100px;
-    color: #fff;
-    border: none;
-    border-radius: 70px;
-    font-size: 70px;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: 0px 0px 8px #000000;
+p {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-top: 10px;
 }
-
-button:hover {
-    transform: scale(1.02);
-    text-shadow: 0px 0px 8px #fff;
-}
-
-
