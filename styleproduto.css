@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+/* layout principal*/
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fbf3f2;
+    color: #e68a7b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Menu */
+header {
+    background-color: #e68a7b;
+    padding: 1.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color:#e68a7b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fbf3f2;
+    font-size: 22px;
+    font-weight: bold;}
+/*Botôes*/
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fbf3f2;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/*Transição dos botões*/
+a:hover{
+    text-decoration: none;
+    color: #fbf3f2;
+    transform: scale(1.5);
+    text-shadow: 0px 0px 8px #fbf3f2;
+    
+}
+
+.Sobre ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Sobre li{
+    list-style: none;
+}
+main{
+    margin-top: 70px;
+}
+
+/*estilos produtos*/
+section .produtos{
+    padding:80px 4%
+}
+
+div.flex{
+    padding:60px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-radius: 70px ;
+    text-align: center;
+}
+
+section.produtos .flex{
+    justify-content: space-around;
+}
+
+.img-port{
+    width:350px;
+    height:700px;
+    background-color: #e68a7b;
+    border-radius: 50px;
+    justify-content: space-around;
+    margin-top: 80;
+    padding-top: 50px;
+    display: inline;
+}
+h1{
+    font-size:xx-large;
+    color:white;
+    padding: 45px
+}
+
+p{
+    color:white;
+}
+
+div .img-port img{
+    border-radius: 50px;
+    margin-top: 175px;
+}
